@@ -1,5 +1,8 @@
 ### ReactJS로 영화 웹 서비스 만들기
 
+https://leewanhui-202102581.github.io/react-for-beginners/
+
+
 - **강의 출처**: [노마드코더: ReactJS로 영화 웹 서비스 만들기](https://nomadcoders.co/react-for-beginners/lobby)  
 - **사용한 API**: [YTS API](https://yts.mx/api)  
 - **사용 언어 & 스택**: HTML, JSX, JavaScript, CSS, React  
