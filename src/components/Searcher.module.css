@@ -1,0 +1,61 @@
+/* 검색 컨테이너 */
+.searchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 10px;
+    
+  }
+  
+  /* 검색 박스 (입력 필드) */
+  .searchBox {
+    width: 50%;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  /* 검색 박스에 포커스 시 */
+  .searchBox:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  /* 검색 버튼 */
+  .searchBtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* 버튼 호버 시 효과 */
+  .searchBtn:hover {
+    background-color: #45a049;
+  }
+  
+  /* 버튼 클릭 시 효과 */
+  .searchBtn:active {
+    background-color: #3e8e41;
+  }
+  
+  /* 반응형 디자인: 작은 화면에서 검색 박스 크기 조정 */
+  @media (max-width: 480px) {
+    .searchContainer {
+      flex-direction: column;
+    }
+  
+    .searchBox {
+      width: 80%;
+    }
+  }
+  
